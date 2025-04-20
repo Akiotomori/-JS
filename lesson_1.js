@@ -12,3 +12,6 @@ let nameIlya = "Ilya";
 alert( `hello ${1}` ); // выведет hello 1
 alert( `hello ${"name"}` ); // выведет hello name
 alert( `hello ${nameIlya}` ); // выведет hello Jonn
+
+let qq = prompt("Введите своё имя")
+alert(qq)
