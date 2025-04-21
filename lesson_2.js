@@ -23,3 +23,44 @@ undefined + 1 // nan
 let g = +prompt("Первое число?", 1);
 let h = +prompt("Второе число?", 2);
 alert(g + h); // 3
+
+5 > 4 // true
+"ананас" > "яблоко" // false
+"2" > "12" // true
+undefined == null // true
+undefined === null // false
+null == "\n0\n" // false
+null === +"\n0\n" // false
+
+let js = prompt('Какое официальное название JavaScript?')
+    if (js == 'ECMAScript') {
+        alert('Верно!')
+    }
+    else {
+        alert('Не знаете? ECMAScript!')
+    }
+
+
+let number = +prompt("Введите число")
+    if (number > 0) {
+        alert(1)
+    }
+    else if (number < 0) {
+        alert(-1)
+    }
+    else {
+        alert(0)
+    }
+
+
+let qa = 1
+let qc = 4 
+let message = (qa+qc<4)? 'Моло': 'Много';
+alert (message) 
+
+
+let worker = prompt('Ваш логин?')
+let ms = (worker == 'Сотрудник')? 'Привет':
+         (worker == 'Директор')? 'Здраствуйте':
+         'Нет логина'
+alert(ms)
