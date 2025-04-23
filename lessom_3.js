@@ -20,10 +20,9 @@ let age = +prompt('Введите свой возраст')
         alert('Не то')
     }
 
-    let login = prompt('Введите пароль','')
+let login = prompt('Введите пароль','')
     if (login === 'Админ') {
-       let password = prompt('Пароль?','')
-        
+        let password = prompt('Пароль?','')
         if (password === 'Я главный') {
             alert('Здравствуйте!')
         }
